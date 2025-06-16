@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revisão Tabelas</title>
+</head>
+<body>
+    <center><h1> ALINHAMENTO DE TABELA E CELULAS </h1></center>  <!-- por meio do "align" mudamos a direção da tabela e das celulas -->
+    <table border="1" align="center">
+        <td> Primeira celula </td>
+        <td> Segunda celula </td>
+        <td> Terceira celula </td>
+
+        <tr>
+            <td align="center"> Centro </td>
+            <td align="left"> Direita </td>
+            <td align="right"> Esquerda </td>
+        </tr>
+    </table>
+<br>
+<br>
+
+<center><h1> USO DO CELLSPACING </h1></center>  <!-- o cellspacing é o espaço em relação as colunas-->
+    <table border="1" width="80%" cellspacing="24" align="center">
+        <tr>
+            <td width="33%" align="center"> Coluna 1 </td>
+            <td width="33%" align="center"> Coluna 2 </td>
+            <td width="34%" align="center"> Coluna 3 </td>
+        </tr>
+</table>
+<br>
+<br>
+
+<center><h1> USO DO CELLSPADDING </h1></center>   <!-- o cellspadding é o comprimento da minha tabela-->
+    <table border="1" width="90%" cellspadding="24" align="center">
+        <tr>
+            <td width="25%" align="center"> Aluno </td>
+            <td width="30%" align="center"> Professor </td>
+            <td width="45%" align="center"> Tec. Desenv </td>
+        </tr>
+    </table>
+<br>
+<br>
+
+<center><h1> USO DO ROWSPAN </h1></center>  <!-- o rowspan mescla as linhas-->
+    <table border="1" width="90%" rowspan="24" align="center">
+        <tr>
+            <td width="16%" rowspan="3"> 3 linhas </td>
+            <td width="16%"> L1 coluna 2 </td>
+            <td width="16%"> L1 coluna 3</td>
+            <td width="17%" > L1 coluna 4 </td>
+            <td width="17%" > L1 coluna4 </td>
+        </tr>
+        <tr>
+            <td width="16%"> L2 coluna 2 </td>
+            <td width="16%"> L2 coluna 3</td>
+            <td width="17%" > L2 coluna 4 </td>
+            <td width="17%" > L2 coluna4 </td>
+       </tr>
+
+       <tr>
+        <td width="16%"> L3 coluna 2 </td>
+        <td width="16%"> L3 coluna 3</td>
+        <td width="17%" > L3 coluna 4 </td>
+        <td width="17%" > L3 coluna4 </td>
+   </tr>
+    </table>
+<br>
+<br>
+
+    <center><h1> USO DO COLSPAN </h1></center>   <!-- o cospan mescla as colunas-->
+    <table border="1" width="90%" colspan="24" align="center">
+        <tr>
+            <td width="24%" colspan="3"> Celula com 3 colunas </td>
+            <td width="20%" > L1 coluna 2 </td>
+            <td width="20%" > L1 coluna 3</td>
+        </tr>
+        <tr>
+            <td width="16%" bgcolor="green"> L2 coluna 2 </td>
+            <td width="16%" bgcolor="blue"> L2 coluna 3 </td>
+            <td width="17%" bgcolor="yellow"> L2 coluna 4 </td>
+            <td width="24%" colspan="2" bgcolor="red"> celula com 2 colunas </td>
+       </tr>
+    </table>
+<br>
+<br>
+
+    <center>
+        <address>
+            Heloisa Gonçalves da Silva / Técnico de Desenvolvimento de sistemas
+        </address>
+        </center>
+</body>
+</html>
