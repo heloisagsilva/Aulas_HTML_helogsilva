@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo 1 formulário</title>
+</head>
+<body>
+    <form method="post" action="HeloisaSilva">
+        Qual o seu primeiro nome?
+        <input type="text" name="primeiro_nome" value="carlos" size="10" maxlength="15">
+<br>
+<br>
+
+       Informe a sua senha de acesso (8 caracteres):
+       <input type="password" value="xpto" name="sua_senha" size="8" maxlength="8">
+<br>
+<br>
+        Você nao pode visualizar nada aqui embaixo.
+        <input type="hidden" value="form12" name="nome_oculto">
+<br>
+<br>
+        Por favor, escreva aqui suas sugestões, dúvidas e críticas.
+        <textarea name="critica" rows="3" cols="40">
+        Gostaria de obter mais informações sobre este servidor. Grato.
+        </textarea>
+<br>
+<br>
+        Onde você pretende fazer turismo nas férias?
+        <select name="lugares_para_ver">
+            <option>Fortaleza</option>
+            <option value="sul">Florianopolis ou Porto Alegre</option>
+            <option>Rio de Janeiro</option>
+            <opiton selected>Brasilia</opiton>
+            <option value="amazonia"> Manaus</option>
+        </select>
+<br>
+<br>
+        Que facilidades de acomodação você deseja?
+        <select name="opcional" multiple size="5">
+            <option> Telvisão</option>
+            <option value="casal" selected> Cama de casal</option>
+            <option> Ar condicionado</option>
+            <option> Fax</option>
+            <option selected> Modem V.3</option>
+            <option> Sauna</option>
+            <option> Lavanderia</option>
+            <option> Frigo-bar</option>
+        </select>
+<br>
+<br>
+        <input type="checkbox" name="veiculo1" value="bicicleta"> Eu tenho uma bicicleta
+        <input type="checkbox" name="veiculo2" value="carro"> Eu tenho um carro
+        <input type="checkbox" name="veiculo3" value="boat" checked> Eu tenho um barco
+<br>
+<br>
+        <input type="submit" value="submit">
+<br>
+<br>
+        <p> Por favor selecione o seu gênero:</p>
+        <input type="radio" name="gênero" value="femenino"> Feminino
+        <input type="radio" name="gênero" value="masculino"> Masculino
+        <input type="radio" name="gênero" value="outro"> Outro
+<br>
+        <p> Por Favor selecione a sua idade:</p>
+        <input type="radio" name="age" value="30"> 0 - 30
+        <input type="radio" name="age" value="60"> 31 - 60
+        <input type="radio" name="age" value="100"> 61 - 100
+<br>
+<br>
+        Email: <input type="text" name="email">
+        <br> <br>
+        Pin: <input type="text" name="pin" maxlength="4">
+<br>
+<br>
+        <input type="reset" value="reset">
+        <input type="submit" value="submit">
+<br>
+<br>
+</form>
+</body>
+<center>
+    <address>
+        Heloisa Gonçalves da Silva / Técnico de Desenvolvimento de sistemas
+    </address>
+    </center>
+</html>
